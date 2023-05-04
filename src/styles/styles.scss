@@ -1,0 +1,23 @@
+@use "header";
+@use "event";
+@use "infos";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  color: #fff;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+  @media (max-width: 640px) {
+    max-width: 80%;
+  }
+  @media (max-width: 1024px) {
+    max-width: 90%;
+  }
+}
